@@ -27,3 +27,6 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+[在线演示地址](https://xiaolannuoyi.github.io/element-navmenu/).
+[vue elementui navmenu 多级导航菜单(水平、垂直)
+](https://blog.csdn.net/qq_31126175/article/details/81875468#comments).
