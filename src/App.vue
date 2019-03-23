@@ -6,11 +6,11 @@
       active-text-color="#ffd04b"
       :default-active="activeIndex"
       router
-      style="min-height:100vh;width:200px;float:left"
+      style="min-height:100vh;width:230px;float:left"
     >
       <NavMenu :navMenus="menuData"></NavMenu>
     </el-menu>
-    <router-view style="float:left"></router-view>
+    <router-view style="margin-left:250px"></router-view>
   </div>
 </template>
 
@@ -48,8 +48,7 @@ export default {
                 id: 3,
                 name: "authManage",
                 icon: "el-icon-loading",
-                alias: "权限管理",
-                value: { path: "/hello" }
+                alias: "echarts折线图-图例过滤"
               }
             },
             {
@@ -57,8 +56,7 @@ export default {
                 id: 4,
                 name: "roleManage",
                 icon: "el-icon-bell",
-                alias: "角色管理",
-                value: "/system/role"
+                alias: "echarts折线图-图例点击",
               }
             },
             {
