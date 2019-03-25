@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-15a09756"],{"5e975":function(e,t,n){"use strict";n.r(t);var c=function(){var e=this,t=e.$createElement;e._self._c;return e._m(0)},a=[function(){var e=this,t=e.$createElement,c=e._self._c||t;return c("div",{staticClass:"home"},[c("img",{attrs:{alt:"Vue logo",src:n("cf05")}})])}],o={name:"home"},s=o,l=n("2877"),r=Object(l["a"])(s,c,a,!1,null,null,null);t["default"]=r.exports},cf05:function(e,t,n){e.exports=n.p+"img/logo.82b9c7a5.png"}}]);
+//# sourceMappingURL=chunk-15a09756.375ee711.js.map
