@@ -175,9 +175,19 @@ export default {
             }
           ]
         }
-      ]
+      ],
+      
     };
+  },
+  mounted(){
+    console.log(window.location.href)
+    let start = window.location.href.lastIndexOf('/');
+    let path = window.location.href.slice(start+1);
+    this.activeIndex = path;
+    
+    console.log(this.activeIndex)
   }
+  
 };
 </script>
 

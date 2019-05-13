@@ -94,6 +94,7 @@ export default {
     }
   },
   mounted() {
+    console.log('auth mounted');
     this.changehandel(this.radio4)
   }
 };
